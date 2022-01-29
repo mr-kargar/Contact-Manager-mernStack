@@ -1,4 +1,5 @@
 import React from 'react';
+import {RiContactsFill} from 'react-icons/ri'
 
 function Contact({idd,name,family,tell,email}) {
     return (
@@ -6,7 +7,7 @@ function Contact({idd,name,family,tell,email}) {
         
             <p>
                 <a className="aClass" data-bs-toggle="collapse" href={`#${idd}`} role="button" aria-expanded="false" aria-controls={idd}>
-                    {name+" "+family}
+                  <RiContactsFill/> <span className='mx-3'>{name+" "+family}</span>
                 </a>
             </p>
             
