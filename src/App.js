@@ -17,7 +17,7 @@ function App() {
     }, []);
     return (
         <>
-            <Header title="Contact Manager" color="light" />
+            <Header title="Contact Manager" />
             <AddContact />
             <Contacts userInfo={userData}/>
             <Footer/>

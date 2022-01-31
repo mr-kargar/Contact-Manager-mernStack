@@ -1,8 +1,9 @@
 import React from "react";
 import PropTypes from 'prop-types';
+import {GoSignIn} from 'react-icons/go';
 
 
-function Header({title,color}){
+function Header({title}){
     return(
     <nav className="container navbar navbar-expand-lg navbar-light bg-info shadow-sm my-3">
   <div className="container">
@@ -21,6 +22,7 @@ function Header({title,color}){
           <a className="nav-link" href="#">Contact Us</a>
         </li>
       </ul>
+      <button className="btn btn-outline-dark my-2 my-sm-0 " ><GoSignIn/><span className="mx-2">Sign In</span></button>
     </div>
   </div>
 </nav>
