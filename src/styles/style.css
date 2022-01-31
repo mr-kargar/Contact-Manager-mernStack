@@ -1,5 +1,6 @@
-.contactClass{
-    border: solid 1px #fff;
+.contactsClass{
+    height: 42vh;
+    overflow : auto ;
 }
 
 .aClass{
